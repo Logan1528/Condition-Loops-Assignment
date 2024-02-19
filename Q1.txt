@@ -1,0 +1,54 @@
+Q1. What are conditional statements? Explain conditional statements with 
+syntax and examples.
+
+	Conditional statements control behavior in JavaScript and determine whether 
+or not pieces of code can run.
+
+There are multiple different types of conditionals in JavaScript including:
+
+	“If” statements: where if a condition is true it is used to specify execution for a block of code.
+
+EXAMPLE
+
+if (10 > 5) {
+      var outcome = "if block";
+}
+​
+outcome;
+
+OUTPUT
+"if block"
+
+	“Else” statements: where if the same condition is false it specifies the execution for a block of code.
+
+
+EXAMPLE
+
+if ("cat" === "dog") {
+      var outcome = "if block";
+} else {
+      var outcome = "else block";
+}
+
+outcome;
+
+OUTPUT
+"else block"
+
+	“Else if” statements: this specifies a new test if the first condition is false.
+
+EXAMPLE
+
+if (false) {
+      var outcome = "if block";
+} else if (true) {
+      var outcome = "else if block";
+} else {
+      var outcome = "else block";
+}
+
+outcome;
+
+OUTPUT
+"else if block"
+

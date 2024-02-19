@@ -1,0 +1,18 @@
+Q4. Generate numbers between any 2 given numbers.
+
+
+//Input 
+const min = 10;
+const max = 25;
+
+//Generating random num
+const a = Math.floor(Math.random() * (max - min + 1)) + min;
+
+//display a random number
+console.log(`Random value between ${min} and ${max} is ${a}`)
+
+
+
+
+
+
